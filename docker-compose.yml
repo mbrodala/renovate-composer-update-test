@@ -1,0 +1,7 @@
+services:
+  app:
+    image: thecodingmachine/php:8.1-v4-cli
+    environment:
+      PHP_EXTENSIONS: gd
+    volumes:
+      - .:/usr/src/app
